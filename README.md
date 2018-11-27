@@ -4,7 +4,7 @@ Remote MySQL tool. Requires pymysql. Python3.4+
 You might ask: hy is this needed? MySQL allows one to connect remotely.
 Yes, but not in all cases...
 
-(make sure you have installed pymysql via pip)
+(make sure you have installed pymysql and python-osc via pip)
 
 1> Install remySQLSrv.py and DBClassMySQL.py on the machine where MySQL resides
 
