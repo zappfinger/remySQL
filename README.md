@@ -1,10 +1,10 @@
 # remySQL
 Remote MySQL tool. Requires pymysql. Python3.4+
 
-You might ask:why is this needed? MySQL allows one to connect remotely.
+You might ask: hy is this needed? MySQL allows one to connect remotely.
 Yes, but not in all cases...
 
-(make sure you have install pymysql via pip)
+(make sure you have installed pymysql via pip)
 
 1> Install remySQLSrv.py and DBClassMySQL.py on the machine where MySQL resides
 
@@ -13,3 +13,5 @@ Yes, but not in all cases...
 3> on the client machine install remySQLClient.py, enter the IP address of the MySQL server and run it
 
 4> Enter a SQL command in the format 'SQL@select * from table'
+
+As an alternative, you can import remySQLClient in your program and call its methods...
