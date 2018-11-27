@@ -8,7 +8,7 @@ Yes, but not in all cases...
 
 1> Install remySQLSrv.py and DBClassMySQL.py on the machine where MySQL resides
 
-2> Modify DBClassMySQL.py (database name, login and password) and enter the IP address of the client machine
+2> Modify DBClassMySQL.py (db name, login and password) and enter the IP address of the client machine, then run remySQLSrv.py
 
 3> on the client machine install remySQLClient.py, enter the IP address of the MySQL server and run it
 
